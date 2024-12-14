@@ -9,8 +9,6 @@ import '../utils/bindings/home_binding.dart';
 Future<void> main() async {
 
   InitHive().create();
-  await Hive.initFlutter();
-  await Hive.openBox('auth');
 
   runApp(const MyApp());
 }
